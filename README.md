@@ -1,4 +1,4 @@
-# Projeto Enfermagem ( FRONT-END )
+# Projeto Enfermagem ( Back-End )
 Projeto realizado com fim de melhorar o controle das Anotações de Enfermagem(Sinais Vitais e Estado atual do Paciente), acessibilizando e possibilitando a administração da enfermagem em Lares do Idoso/Clinicas de porte pequeno.
 
 # Mais sobre o projeto
