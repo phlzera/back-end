@@ -36,14 +36,13 @@ module.exports = {
 
       return res.status(201).json(resultado);
     } catch (error) {
-      return res
-        .status(400)
-        .json({
-          mensagem: "Não foram fornecidos dados Válidos",
-          errorId: error.errorId,
-        });
+      return res.status(400).json({
+        mensagem: "Não foram fornecidos dados Válidos",
+        errorId: error.errorId,
+      });
     }
   },
+  
   //Procura um responsavel via query params usando o id como parametro
   async findByPK(req, res) {
     try {
